@@ -2,3 +2,4 @@
 Project to practice making and working with vectors in R and Python
 
 - changing readme practice
+- seeing what happens if I make changes in the browser
