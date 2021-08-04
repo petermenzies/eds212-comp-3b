@@ -1,0 +1,57 @@
+---
+title: "Vectors in R"
+author: "Peter Menzies"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# create a vector!
+vec_a <- c(4, 5) 
+
+```
+
+## another code chunk
+
+```{r, echo = FALSE}
+vec_b <- c(-3, 10)
+```
+
+## vector addition
+
+```{r}
+#create a new vector by adding vec a and vec b
+vec_c <- vec_a + vec_b
+```
+
+## vector subtraction
+
+```{r}
+vec_d <- vec_b - vec_a
+```
+
+## scalar multiplier
+
+```{r}
+vec_e <- vec_b * 4
+```
+
+## dot product
+
+```{r}
+# just multiplies the values in each
+vec_a * vec_b
+
+# right way to do it
+vec_a %*% vec_b
+# outputs a matrix
+```
+
+
+
+
+
